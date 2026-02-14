@@ -16,7 +16,7 @@ const Hero = ({img,text1, text2}) => {
         <img src={img} alt="" className={`absolute top-0 left-0 h-full w-full object-cover transition-transform duration-700 ${isScrolled ? "scale-110" : "scale-100"} `} />
       </div>
       <div className={`absolute top-0 left-0 h-full w-full bg-black/80 ${isScrolled ? "translate-3d" : ""}`}></div>
-      <div className="relative z-10 h-full md:min-h-screen flex px-6 md:px-28 mt-6">
+      <div className="relative z-10 h-full md:min-h-screen flex px-6 md:px-28">
         <div className="flex flex-col justify-center gap-6 uppercase max-w-xl text-left lg:mt-30">
          <div>
            <p className='font-semibold mt-40 lg:mt-0'>Modern concept</p>

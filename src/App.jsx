@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import './App.css'
-import Header from './Components/Header'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home/Home'
 import Home2 from './Components/Home2/Home2'
@@ -22,7 +21,6 @@ import Urban from './Components/BlogList/Urban'
 import Technology from './Components/BlogList/Technology'
 import Design from './Components/BlogList/Design'
 import Architecture from './Components/BlogList/Architecture'
-import Line from './Components/Line'
 import Footer from './Components/Footer'
 import SideNavbar from './Components/SideNavbar'
 import ScrollToTop from './ScrollToTop';
@@ -61,11 +59,9 @@ function App() {
     <>
       <Router>
         <ScrollToTop/>
-        <Header />
         <Navbar />
         <SideNavbar />
         <div className='relative'>
-          <Line />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Home2" element={<Home2 />} />

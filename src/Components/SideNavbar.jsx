@@ -12,7 +12,7 @@ const [activeTab, setActiveTab] = useState("Related");
 
     return (
         <div>
-            <div className={`fixed top-1/3 right-0 z-50 flex flex-col border border-black bg-white shadow-lg transition-all duration-500 ${(showHelp || showDemo) ? "-translate-x-73" : "translate-x-0"}`}>
+            <div className={`fixed top-8/12 lg:top-1/3 right-0 z-50 flex flex-col border border-black bg-white shadow-lg transition-all duration-500 ${(showHelp || showDemo) ? "-translate-x-73" : "translate-x-0"}`}>
                 <div className="relative group flex items-center">
                     <button onClick={() => setVisible(false)} className="p-2 sm:px-3 sm:py-2 transition">
                         <i className="fa-solid fa-eye-slash"></i>

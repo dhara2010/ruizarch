@@ -30,7 +30,7 @@ function Coming_soon() {
                 <img src="./images/15.jpg" alt="" className={`absolute top-0 left-0 h-full w-full object-cover`} />
             </div>
             <div className={`absolute top-0 left-0 h-full w-full bg-black/80`}></div>
-            <div className="relative z-10 h-full flex flex-col lg:flex-row justify-between items-center px-6 md:px-28 mt-6">
+            <div className="relative z-10 h-full flex flex-col lg:flex-row justify-between items-center px-6 md:px-28">
                 <div className="flex flex-col justify-center gap-10 max-w-xl text-center md:text-left lg:mt-30">
                     <div>
                         <p className='font-semibold uppercase'>New Experience</p>

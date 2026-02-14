@@ -18,7 +18,7 @@ const Hero = () => {
                 <img src="./images/services/1.jpg" alt="" className={`absolute top-0 left-0 h-full w-full object-cover transition-transform duration-700 ${isScrolled ? "scale-110" : "scale-100"} `} />
             </div>
             <div className={`absolute top-0 left-0 h-full w-full bg-black/70 ${isScrolled ? "translate-3d" : ""}`}></div>
-            <div className="relative z-10 uppercase h-full md:min-h-screen flex flex-col  items-center text-center justify-center px-6 md:px-28 mt-6">
+            <div className="relative z-10 uppercase h-full md:min-h-screen flex flex-col  items-center text-center justify-center px-6 md:px-28">
                 <h1 className='text-2xl md:text-3xl lg:text-6xl font-bold mt-40'>LeaderShip</h1>
                 <p className='text-sm pt-10'>Home <span className='mx-4'>/</span> Team</p>
             </div>

@@ -9,7 +9,7 @@ function Error() {
         <img src='./images/16.jpg' alt="" className={`absolute top-0 left-0 h-full w-full object-cover`} />
       </div>
       <div className={`absolute top-0 left-0 h-full w-full bg-black/80`}></div>
-      <div className="relative z-10 min-h-[120vh] md:min-h-screen flex px-6 md:px-28 mt-6">
+      <div className="relative z-10 min-h-[120vh] md:min-h-screen flex px-6 md:px-28">
         <div className="flex flex-col justify-center gap-8 max-w-xl text-center md:text-left lg:mt-30">
           <div>
             <p className='font-semibold uppercase'>Page Not Found</p>
